@@ -1,0 +1,8 @@
+public class ParametrosInvalidosException extends Exception {
+    static int parametroNums(int parametroUm, parametroDois) throws ParametrosInvalidosException{
+        if(parametroDois <= parametroUm)
+          throw new ParametrosInvalidosException();
+        
+          //simulando um cep formatado
+          return System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+}
